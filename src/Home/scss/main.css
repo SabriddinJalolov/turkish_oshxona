@@ -1,0 +1,461 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Cera Round Pro";
+  src: url(../../fonts/Fontspring-DEMO-ceraroundpro-regular.otf);
+}
+.hero {
+  padding-top: 171px;
+  padding-bottom: 300px;
+}
+.hero__leni {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  padding-bottom: 25px;
+}
+.hero__title {
+  font-family: "Cera Round Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  max-width: 555px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.hero__text {
+  max-width: 453px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+.hero__btn {
+  padding: 8px 32px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  color: #fff;
+  background: transparent;
+  transition: all 2s ease;
+  width: 173px;
+  margin: 0 auto;
+}
+.hero__btn:hover {
+  transition: all 2s ease;
+  border: 1px solid red;
+  background-color: #fff;
+  color: red;
+}
+.hero__img {
+  left: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    background-image: url(./../imges/takoyshashhlik.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wrapper {
+    width: 428px;
+    background-image: url(https://jamesandeverett.com/wp-content/uploads/2016/02/russian_shashlik_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.bground {
+  background-color: #f8f8f8;
+  padding-bottom: 120px;
+}
+
+.popular {
+  padding-top: 120px;
+}
+.popular__enner {
+  padding-bottom: 60px;
+}
+.popular__enner--title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #bb2339;
+}
+.popular__img:hover {
+  transform: scale(1.22);
+}
+.popular .row {
+  padding: 0 50px;
+  padding-bottom: 50px;
+}
+.popular .row__cart {
+  width: 270px;
+  margin: 0 auto;
+}
+.popular .row__leni {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #bb2339;
+}
+
+.regular {
+  padding-bottom: 220px;
+}
+.regular__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  padding-bottom: 60px;
+  color: #bb2339;
+}
+.regular__list {
+  padding-bottom: 70px;
+}
+.regular__list--item {
+  color: #242424;
+  transition: all 2s ease;
+}
+.regular__list--item:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: all 2s ease;
+}
+.regular__minu--item {
+  width: 270px;
+  transition: all 2s ease;
+}
+.regular__minu--item:hover {
+  background-color: red;
+  transition: all 2s ease;
+  color: #fff;
+}
+.regular__minu--text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  transition: all 2s ease;
+}
+.regular__minu--text:hover {
+  transition: all 2s ease;
+  color: #fff;
+}
+
+.Happy-site {
+  background-color: #f4f4f4;
+  padding-top: 100px;
+}
+
+.happy__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #242424;
+  text-align: center;
+}
+.happy__title1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: #242424;
+}
+.happy__row {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.happy__item {
+  max-width: 410px;
+  width: 100%;
+  padding: 30px 20px;
+  padding-right: 30px;
+  background-color: #fff;
+}
+.happy__item--title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #333333;
+}
+.happy__list {
+  padding: 0;
+  margin: 0;
+}
+.happy__input {
+  outline: none;
+}
+.happy .carousel-control-next-icon {
+  background-color: red;
+  position: absolute;
+  right: -50px;
+}
+
+@media screen and (max-width: 500px) {
+  .Happy-site {
+    width: 428px;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-control-prev-icon {
+    background-color: red;
+  }
+}
+.news {
+  padding: 120px 0;
+}
+.news__row {
+  padding-bottom: 50px;
+}
+.news__item {
+  max-width: 410px;
+  width: 100%;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+}
+.news__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  padding-bottom: 25px;
+  color: #242424;
+}
+.news__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: #bb2339;
+  padding-bottom: 60px;
+}
+.news__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  color: #bb2339;
+  background: transparent;
+}
+.news__wrapper-btn {
+  padding-bottom: 30px;
+}
+.news__button {
+  width: 149px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  padding: 8px 32px;
+  border: 1px solid #bb2339;
+  border-radius: 100px;
+  color: #bb2339;
+  transition: all 2s ease;
+}
+.news__button:hover {
+  background-color: red;
+  color: #fff;
+  transition: all 2s ease;
+}
+
+@media screen and (max-width: 500px) {
+  .news__img {
+    width: 90%;
+  }
+}
+.img__inner {
+  height: 763px;
+  max-width: 1920px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .img__inner {
+    height: 763px;
+    width: 428px;
+  }
+}
+.swper-site {
+  background-color: #f4f4f4;
+  padding: 130px 0;
+}
+
+.swper__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #242424;
+}
+.swper__title1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  padding: 25px 0;
+  color: #242424;
+}
+.swper__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  max-width: 492px;
+  width: 100%;
+  margin: 0 auto;
+}
+.swper__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  color: #242424;
+  border: 1px solid #bb2339;
+  border-radius: 100px;
+  padding: 8px 32px;
+  width: 149px;
+  margin: 0 auto;
+}
+.swper__btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.swper-site .swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .swper-site {
+    width: 428px;
+  }
+}
+.letter-site {
+  margin-top: 251px;
+  background-color: #bb2339;
+}
+
+.letter {
+  position: relative;
+  bottom: 221px;
+  padding: 64px 0;
+  background: #bb2339;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  border-radius: 20px;
+}
+.letter__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.letter__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+.letter__input {
+  max-width: 635px;
+  width: 100%;
+  outline: none;
+  color: #ffffff;
+  padding: 12px 18px 12px;
+  background: transparent;
+  border: 1px solid rgba(245, 239, 219, 0.5);
+  border-radius: 100px;
+}
+.letter ::-moz-placeholder {
+  color: #fff;
+}
+.letter ::placeholder {
+  color: #fff;
+}
+.letter__btn {
+  border: none;
+  padding: 12px 32px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  transition: all 2s ease;
+  border-radius: 100px;
+  color: #ffffff;
+}
+.letter__btn:hover {
+  background-color: #fff;
+  color: red;
+  transition: all 2s ease;
+}
+.letter__text1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 64px;
+}
+
+.contact {
+  padding-bottom: 50px;
+}
+.contact__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.contact__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.contact__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 450px) {
+  .letter-site {
+    width: 428px;
+  }
+}/*# sourceMappingURL=main.css.map */
